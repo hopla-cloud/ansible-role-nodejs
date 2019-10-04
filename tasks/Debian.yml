@@ -7,4 +7,7 @@
     warn: no
 
 - name: Install nodejs package
-  apt: name=nodejs state=latest update_cache=yes
+  apt:
+    name: nodejs
+    state: latest
+    update_cache: yes
