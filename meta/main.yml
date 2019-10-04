@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: nginx_php
+  role_name: nodejs
   author: hoplacloud
   description: Hopla.cloud role for ansible to deploy NodeJS and related tools (NPM, Yarn)
   company: hopla.cloud
