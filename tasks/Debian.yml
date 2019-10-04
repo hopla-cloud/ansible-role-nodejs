@@ -2,7 +2,7 @@
 # tasks file for hoplacloud.nodejs
 
 - name: Add NodeJS repository (version {{ node_version }})
-  shell: https://deb.nodesource.com/setup_{{ node_version }}.x | sudo -E bash -
+  shell: curl -sL https://deb.nodesource.com/setup_{{ node_version }}.x | sudo -E bash -
   args:
     warn: no
 
